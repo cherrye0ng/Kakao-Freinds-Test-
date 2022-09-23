@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나와 어울리는 카카오 캐릭터는 ?</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resect.css">
+    <link rel="stylesheet" href="css/animaition.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 메인페이지 -->
+        <sectipn id="main">
+            <h1>나에게 찰떡인<br>카카오 캐릭터는?</h1>
+            <img src="img/main.jpg" alt="main">
+            <p>내 성향과 가장 닮은 카카오 캐릭터는 과연 누구일까?</p>
+            <button onclick="start();">Start !</button>
+        </sectipn>
+        <!-- QnA페이지 -->
+        <sectipn id="qna">
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <h1 class="question">Question</h1>
+            <div class="answerBox"></div>
+    </div>
+    </sectipn>
+
+    <!-- Loading페이지 -->
+    <div class="loading">
+        <span class="circle">Loading...</span>
+    </div>
+
+    <!-- Result페이지 -->
+    <section id="result">
+        <h1>당신과 찰떡 캐릭터는?</h1>
+        <h2 class="resultname">귀여운 물범, 앙몬드</h2>
+        <div class="resultImg"></div>
+        <!-- <img src="img/ang.jpg" alt=""> -->
+        <p class="resultDesc">나는야 초콜렛에 진심인 하프 물범. 게으른게 최고 좋앙!!</p>
+        <button class="share">share</button>
+        <button class="return">다시해보기</button>
+    </section>
+    </div>
+
+    <!-- script -->
+    <script src="js/data.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
