@@ -89,14 +89,13 @@ body {
     width: calc(80% - 20%);
     height: 65px;
     margin-top: 50px;
-    font-size: 25px;
     background-color: #FCE9A9;
     border: 1px solid #FCE9A9;
     border-radius: 30px;
     font-family: 'GongGothicMedium';
     font-weight: 700;
     margin-bottom: 30px;
-    color:black;
+    color: #000;
 }
 
 
@@ -135,14 +134,13 @@ body {
     cursor: pointer;
     width: calc(100% - 15%);
     height: 65px;
-    font-size: 15px;
     background-color: #FCE9A9;
     border: 1px solid #FCE9A9;
     border-radius: 30px;
     font-family: 'GongGothicMedium';
     font-weight: 300;
     margin-bottom: 30px;
-     color:black;
+   color: #000;
 }
 
 #qna button:hover,
