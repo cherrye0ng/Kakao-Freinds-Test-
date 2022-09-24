@@ -106,3 +106,8 @@ function start() {
         goNext(qIdx);
     }, 450);
 }
+
+// 다시해보기 시작링크로 새창띄우기 
+function retry(){
+    window.open('https://cherrye0ng.github.io/Kakao-Freinds-Test-/');
+}
